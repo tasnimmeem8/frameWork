@@ -1,72 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-06T21:06:27 EST" name="Default suite" finished-at="2022-12-06T21:07:41 EST" duration-ms="73756">
+  <suite started-at="2022-12-07T16:17:19 EST" name="Default suite" finished-at="2022-12-07T16:17:28 EST" duration-ms="9294">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:setup.RunnerFile@2e222612]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-12-06T21:06:27 EST" name="Default test" finished-at="2022-12-06T21:07:41 EST" duration-ms="73756">
-      <class name="setup.RunnerFile">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:setup.RunnerFile@2e222612]" started-at="2022-12-06T21:06:27 EST" name="setUpClass" finished-at="2022-12-06T21:06:27 EST" duration-ms="73" status="PASS">
+    <test started-at="2022-12-07T16:17:19 EST" name="Default test" finished-at="2022-12-07T16:17:28 EST" duration-ms="9294">
+      <class name="com.testleaf1.pages.Runner">
+        <test-method signature="verifylogin()[pri:0, instance:com.testleaf1.pages.Runner@2525ff7e]" started-at="2022-12-07T16:17:19 EST" name="verifylogin" finished-at="2022-12-07T16:17:28 EST" duration-ms="9270" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:setup.RunnerFile@2e222612]" started-at="2022-12-06T21:06:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-06T21:06:50 EST" duration-ms="23184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["001_Login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test case"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:setup.RunnerFile@2e222612]" started-at="2022-12-06T21:06:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-06T21:07:16 EST" duration-ms="25528" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["002_CreatLead"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test case"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:setup.RunnerFile@2e222612]" started-at="2022-12-06T21:07:16 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-06T21:07:41 EST" duration-ms="24919" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["003_CreatAccount"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test case"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:setup.RunnerFile@2e222612]" started-at="2022-12-06T21:07:41 EST" name="tearDownClass" finished-at="2022-12-06T21:07:41 EST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- setup.RunnerFile -->
+        </test-method> <!-- verifylogin -->
+      </class> <!-- com.testleaf1.pages.Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

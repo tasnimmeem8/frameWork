@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="setup.RunnerFile">
+      <class name="com.testleaf1.pages.Runner">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2"/>
-          <include name="tearDownClass"/>
+          <include name="verifylogin"/>
         </methods>
-      </class> <!-- setup.RunnerFile -->
+      </class> <!-- com.testleaf1.pages.Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
