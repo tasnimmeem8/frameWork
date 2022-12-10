@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-07T16:17:19 EST" name="Default suite" finished-at="2022-12-07T16:17:28 EST" duration-ms="9294">
+  <suite started-at="2022-12-08T23:21:21 EST" name="Default suite" finished-at="2022-12-08T23:21:40 EST" duration-ms="19385">
     <groups>
     </groups>
-    <test started-at="2022-12-07T16:17:19 EST" name="Default test" finished-at="2022-12-07T16:17:28 EST" duration-ms="9294">
-      <class name="com.testleaf1.pages.Runner">
-        <test-method signature="verifylogin()[pri:0, instance:com.testleaf1.pages.Runner@2525ff7e]" started-at="2022-12-07T16:17:19 EST" name="verifylogin" finished-at="2022-12-07T16:17:28 EST" duration-ms="9270" status="PASS">
+    <test started-at="2022-12-08T23:21:21 EST" name="Default test" finished-at="2022-12-08T23:21:40 EST" duration-ms="19385">
+      <class name="com.teastleaf.testcase_para.Runner_para">
+        <test-method signature="verifyValidLoginPage()[pri:0, instance:com.teastleaf.testcase_para.Runner_para@2525ff7e]" started-at="2022-12-08T23:21:21 EST" name="verifyValidLoginPage" finished-at="2022-12-08T23:21:40 EST" duration-ms="19353" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifylogin -->
-      </class> <!-- com.testleaf1.pages.Runner -->
+        </test-method> <!-- verifyValidLoginPage -->
+      </class> <!-- com.teastleaf.testcase_para.Runner_para -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
