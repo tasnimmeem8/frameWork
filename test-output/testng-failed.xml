@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testleaf1.pages.Runner">
+      <class name="com.testLeaf_para.RunnerClass">
         <methods>
-          <include name="verifylogin"/>
+          <include name="testLoginFunctionality"/>
         </methods>
-      </class> <!-- com.testleaf1.pages.Runner -->
+      </class> <!-- com.testLeaf_para.RunnerClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
